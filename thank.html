@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="img/fave.icon" />
+    <title>Car Zone</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <!--Start Header-->
+    <nav class="navbar navbar-expand-lg bg-transparent wow slideInDown">
+      <div class="container">
+        <img
+          class="ellipse position-absolute top-0 start-0 z-n1"
+          src="img/Ellipse-top.png"
+          alt=""
+        />
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" /></a>
+        <div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <button class="btn notify-btn position-relative d-md-none d-sm-inline-block">
+            <svg
+              width="25"
+              height="28"
+              viewBox="0 0 25 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M1.00112 16.6709V16.3797C1.04457 15.5183 1.32551 14.6838 1.81495 13.962C2.62961 13.0951 3.18729 12.0325 3.42948 10.8861C3.42948 10 3.42948 9.10126 3.50825 8.2152C3.91516 3.94937 8.20749 1 12.4474 1H12.5524C16.7922 1 21.0844 3.94937 21.5045 8.2152C21.5832 9.10126 21.5045 10 21.5701 10.8861C21.8155 12.0352 22.3727 13.1009 23.1847 13.9747C23.6777 14.6901 23.9591 15.5216 23.9985 16.3797V16.6582C24.0279 17.8154 23.6223 18.9439 22.8565 19.8355C21.8448 20.8779 20.4717 21.5264 18.9974 21.6582C14.6742 22.1139 10.3123 22.1139 5.98913 21.6582C4.51648 21.5207 3.14543 20.8731 2.12998 19.8355C1.37611 18.9432 0.975966 17.8215 1.00112 16.6709Z"
+                stroke="black"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M9 26C9.6225 26.5457 10.5367 26.899 11.5401 26.9815C12.5437 27.0639 13.5537 26.8689 14.3468 26.4395C14.5907 26.3125 14.8101 26.1648 15 26"
+                stroke="black"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="position-absolute top-0 start-50 notify d-inline-block lh-sm rounded-circle fs-6 bg-danger"
+              >4</span
+            >
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item nav-item">
+              <a class="nav-link active position-relative px-0 mx-4" aria-current="page" href="./index.html"
+                >Головна</a
+              >
+            </li>
+            <li class="nav-item nav-item">
+              <a class="nav-link position-relative px-0 mx-4" href="./catalog.html">Автопарк</a>
+            </li>
+            <li class="nav-item nav-item">
+              <a class="nav-link position-relative px-0 mx-4" href="./conditions.html">Умови прокату</a>
+            </li>
+            <!-- <li class="nav-item nav-item">
+              <a class="nav-link position-relative px-0 mx-4" href="#">CAR DETAIL</a>
+            </li> -->
+            <!-- <li class="dropdown position-relative px-0 mx-3 nav-item">
+              <a
+                class="nav-link dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                PAGES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+          </ul>
+          <div class="d-flex">
+            <button class="btn notify-btn position-relative d-sm-none d-md-flex">
+              <svg
+                width="25"
+                height="28"
+                viewBox="0 0 25 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M1.00112 16.6709V16.3797C1.04457 15.5183 1.32551 14.6838 1.81495 13.962C2.62961 13.0951 3.18729 12.0325 3.42948 10.8861C3.42948 10 3.42948 9.10126 3.50825 8.2152C3.91516 3.94937 8.20749 1 12.4474 1H12.5524C16.7922 1 21.0844 3.94937 21.5045 8.2152C21.5832 9.10126 21.5045 10 21.5701 10.8861C21.8155 12.0352 22.3727 13.1009 23.1847 13.9747C23.6777 14.6901 23.9591 15.5216 23.9985 16.3797V16.6582C24.0279 17.8154 23.6223 18.9439 22.8565 19.8355C21.8448 20.8779 20.4717 21.5264 18.9974 21.6582C14.6742 22.1139 10.3123 22.1139 5.98913 21.6582C4.51648 21.5207 3.14543 20.8731 2.12998 19.8355C1.37611 18.9432 0.975966 17.8215 1.00112 16.6709Z"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M9 26C9.6225 26.5457 10.5367 26.899 11.5401 26.9815C12.5437 27.0639 13.5537 26.8689 14.3468 26.4395C14.5907 26.3125 14.8101 26.1648 15 26"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span
+                class="position-absolute top-0 start-50 notify d-inline-block lh-sm rounded-circle fs-6 bg-danger"
+                >4</span
+              >
+            </button>
+            <a class="btn btn btn-outline-dark ms-3 border-2 px-4 btn-login" href="#"> Login </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--End Header-->
+    
+    
+    <section class='thanks'>
+      <div class="container">
+        <h1>Дякуємо за замовлення! <br> Ми Вам зателефонуємо</h1>
+        <a href="index.html"><h2>Повернутись на головну</h2></a>
+      </div>
+    </section>
+    
+    
+    <footer class="mt-5 pt-5 text-white">
+      <div data-aos="fade-up" data-aos-duration="1000" class="container">
+        <div class="row justify-content-between">
+          <div class="col md-6">
+            <h2>Welcame car zone</h2>
+          </div>
+          <div class="col md-6 text-end">
+            <button class="btn bg-prime text-white Inquiry Now rounded-pill px-4 py-2">
+              View Car
+            </button>
+          </div>
+        </div>
+        <hr class="" />
+        <div class="row mt-2">
+          <div class="col-md-3">
+            <a href="#" class=""><img src="img/footer-logo.png" alt="" /></a>
+            <p class="mt-md-0 mt-sm-3">
+              Eiusmod condimentum totam, ultrices, quis elem entum, dui.
+            </p>
+          </div>
+          <div class="col-md-2 col-4 mt-sm-3 mt-md-0">
+            <h3 class="h5 mb-3">About us</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-decoration-none text-white pb-3 d-block" href="home.html">Home</a>
+              </li>
+              <li><a class="text-decoration-none text-white pb-3 d-block" href="#">About</a></li>
+              <li><a class="text-decoration-none text-white pb-3 d-block" href="#">Car</a></li>
+              <li><a class="text-decoration-none text-white pb-3 d-block" href="#">Team</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-4 mt-sm-3 mt-md-0">
+            <h3 class="h5 mb-3">Company</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-decoration-none text-white pb-3 d-block" href="#">Core values</a>
+              </li>
+              <li>
+                <a class="text-decoration-none text-white pb-3 d-block" href="#">Partner w/ us</a>
+              </li>
+              <li><a class="text-decoration-none text-white pb-3 d-block" href="#">Blog</a></li>
+              <li><a class="text-decoration-none text-white pb-3 d-block" href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-4 mt-sm-3 mt-md-0">
+            <h3 class="h5 mb-3">Support</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-decoration-none text-white pb-3 d-block" href="#">Support center</a>
+              </li>
+              <li><a class="text-decoration-none text-white pb-3 d-block" href="#">Feedback</a></li>
+              <li>
+                <a class="text-decoration-none text-white pb-3 d-block" href="#">Accessibility</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-12 mb-sm-5 mb-md-0">
+            <h3 class="h5 mb-4">Get in touch</h3>
+            <form class="form-footer mb-3" action="" method="post">
+              <input
+                class="form-control text-center fs-6 text-white w-50 m-auto rounded-pill mt-3"
+                placeholder="Your email here..."
+                type="email"
+                name="email"
+                id=""
+              />
+              <button
+                class="btn mt-3 bg-prime text-white Inquiry Now rounded-pill w-100 m-auto d-md-inline-block d-block"
+              >
+                Get Access
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
